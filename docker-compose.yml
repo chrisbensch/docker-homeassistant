@@ -17,4 +17,4 @@ services:
     #  - 8123:8123 #optional
     #devices:
     #  - /path/to/device:/path/to/device #optional
-    restart: unless-stopped
+    restart: always
