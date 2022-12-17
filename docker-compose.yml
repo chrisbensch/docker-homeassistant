@@ -11,6 +11,7 @@ services:
       - PGID=1000
       - TZ=Europe/London
     volumes:
+      - /run/dbus:/run/dbus:ro
       - ./appdata/config:/config
     #ports:
     #  - 8123:8123 #optional
